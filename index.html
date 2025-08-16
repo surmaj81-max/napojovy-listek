@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nápojový lístek</title>
+  <style>
+    body {
+  font-family: 'Segoe UI', sans-serif;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('pozadi.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff;
+      margin-bottom: 10px;
+    }
+    .logo {
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 150px;
+      border-radius: 10px;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #ff00ff;
+      text-shadow: 0 0 8px #ff00ff;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .drink-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .drink {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00ffff;
+      text-align: center;
+    }
+    .drink img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .drink h3 {
+      margin: 10px 0 5px;
+      color: #00ff99;
+      text-shadow: 0 0 6px #00ff99;
+    }
+    .drink p {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <img src="bar-u-johhnyho.png" alt="Neonové logo Bar u Johnnyho" class="logo">
+  <h1>🍸Nápojový lístek</h1>
+
+  <div class="section">
+    <h2>🥂 Alkoholické drinky</h2>
+    <div class="drink-list">
+      <div class="drink">
+        <img src="mojito.jpg" alt="Mojito">
+        <h3>Mojito</h3><p>Rum, limetka, máta, soda</p>
+      </div>
+      <div class="drink">
+        <img src="cuba libre.jpg" alt="Cuba Libre">
+        <h3>Cuba Libre</h3><p>Rum, cola, limetka</p>
+      </div>
+      <div class="drink">
+        <img src="sex.jpg" alt="Sex On The Beach">
+        <h3>Sex on the Beach</h3><p>Vodka, broskev, pomeranč, brusinka</p>
+      </div>
+      <div class="drink">
+        <img src="sunrise.jpg" alt="Tequila Sunrise">
+        <h3>Tequila Sunrise</h3><p>Tequila, pomeranč, grenadina</p>
+      </div>
+      <div class="drink">
+        <img src="gin.jpg" alt="Gin & Tonic">
+        <h3>Gin & Tonic</h3><p>Gin, tonic, limetka</p>
+      </div>
+      <div class="drink">
+        <img src="laguna.webp" alt="Blue Lagoon">
+        <h3>Blue Lagoon</h3><p>Vodka, blue curaçao, citron, soda</p>
+      </div>
+      <div class="drink">
+        <img src="cosmopolitan.jpg" alt="Cosmopolitan">
+        <h3>Cosmopolitan</h3><p>Vodka, brusinka, triple sec, limetka</p>
+      </div>
+      <div class="drink">
+       <img src="pacific.jpg" alt="Green Pacific">
+        <h3>Green Pacific</h3><p>Malibu, blue curacao, broskvový likér, ananasový džus</p>
+      </div>
+      <div class="drink">
+       <img src="pina.jpg" alt="Pina Colada">
+        <h3>Piña Colada</h3><p>Rum, kokos, ananas</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🧃 Nealkoholické drinky</h2>
+    <div class="drink-list">
+      <div class="drink">
+        <img src="virgin mojito.jpg" alt="Virgin Mojito">
+        <h3>Virgin Mojito</h3><p>Limetka, máta, soda nebo Sprite</p>
+      </div>
+      <div class="drink">
+        <img src="virgin sex.jpg" alt="Virgin Sex on The Beach">
+        <h3>Virgin Sex on the Beach</h3><p>Pomeranč, broskev, brusinka</p>
+      </div>
+      <div class="drink">
+        <img src="temple.webp" alt="Shirley Temple">
+        <h3>Shirley Temple</h3><p>zázvorová limonáda, grenadina, plátek pomeranče, třešnička</p>
+      </div>
+      <div class="drink">
+        <img src="virgin sunrise.webp" alt="Sunrise Mocktail">
+        <h3>Sunrise Mocktail</h3><p>pomerančový džus, grenadina</p>
+      </div>
+      <div class="drink">
+        <img src="water.webp" alt="Watermelon Lemonade">
+        <h3>Watermelon Lemonade</h3><p>Meloun, citron, máta</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🍺 Pivo</h2>
+  <div class="drink-list">
+    <div class="drink">
+      <img src="pivo.jpg" alt="Pivo">
+      <h3>Pivo</h3>
+      <p>Dle nabídky</p>
+  </div>
+
+<div class="section">
+  <h2>☕ Horké nápoje</h2>
+  <div class="drink-list">
+    <div class="drink">
+      <img src="kap.jpg" alt="Cappuccino">
+      <h3>Cappuccino</h3>
+      <p>Espresso s napěněným mlékem a jemnou pěnou</p>
+    </div>
+    <div class="drink">
+      <img src="late.jpg" alt="Latte">
+      <h3>Latte</h3>
+      <p>Espresso s velkou porcí mléka</p>
+    </div>
+    <div class="drink">
+      <img src="kava.jpg" alt="Káva">
+      <h3>Káva</h3>
+      <p>Čerstvě mletá filtrovaná káva</p>
+    </div>
+    <div class="drink">
+      <img src="caj.jpg" alt="Čaj">
+      <h3>Čaj dle nabídky</h3>
+      <p>Výběr ovocných, bylinných a černých čajů</p>
+    </div>
+  </div>
+</div>
